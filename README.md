@@ -1,7 +1,7 @@
 # Tiny-Terminal-Utility-Tools
 **"Tiny Terminal Utility Tools"** in short ***ttut*** was created to improve using **terminal** with **python**
 ## Functions:
-1. ### formatText()
+### formatText()
   
   **Description**
   
@@ -16,3 +16,8 @@
   You can also choose background color just by adding "bg_" before your color, for example: **[bg_blue]Hello [bg_red]world**.
   
   Note that you can use bright colors for background, for example: **[bg_b_blue]Hello [bg_b_red]world**.
+
+  **There is list of all avabile colors**
+    * *reset* - reset style to defaoult of console
+    * *black* - black
+    
