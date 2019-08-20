@@ -10,14 +10,29 @@
   **Usage:**
   
   Write between **square braces** color that you want to use, for example: ```[blue]Hello [red]world```.
+
+  ![example](examples/example1.png)
   
   There is also possibility for using bright variants of colors by adding "b_" before your color, for example: ```[b_blue]Hello [b_red]world```.
+
+  ![example](examples/example2.png)
   
   You can also choose background color just by adding "bg_" before your color, for example: ```[bg_blue]Hello [bg_red]world```.
+
+  ![example](examples/example3.png)
   
   Note that you can use bright colors for background, for example: ```[bg_b_blue]Hello [bg_b_red]world```.
 
-  There is also option to bold, underline (**you can choose only one for text, not both**), reset and set to default.
+  ![example](examples/example4.png)
+  
+  There is a little diffrence!
+
+  There is also option to bold, underline (**you can choose only one for text, not both**), reverse, reset and set to default.
+
+  ![example of reverse](examples/example5.png)
+
+  ![example of bold](examples/example6.png)
+
 
   **There is list of all avabile colors**
   - black - black color
@@ -63,4 +78,5 @@
   - reset - resets to terminal default color
   - bold - ~~Guess~~ bolds the text
   - underline - underlines a text
+  - reverse - swaping text color and background color
   - default - default color that you choose
