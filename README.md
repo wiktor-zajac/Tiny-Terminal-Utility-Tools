@@ -1,13 +1,13 @@
 # Tiny-Terminal-Utility-Tools
 **"Tiny Terminal Utility Tools"** in short ***ttut*** was created to improve using **terminal** with **python**
 ## Functions:
-### formatText()
+### formatText(str)
   
-  **Description**
+  #### Description
   
   This function colorize text in terminal by using ANSI escape codes.
   
-  **Usage:**
+  #### Usage:
   
   Write between **square braces** color that you want to use, for example: ```[blue]Hello [red]world```.
 
@@ -24,7 +24,7 @@
   Note that you can use bright colors for background, for example: ```[bg_b_blue]Hello [bg_b_red]world```.
 
   ![example](examples/example4.png)
-  
+
   There is a little diffrence!
 
   There is also option to bold, underline (**you can choose only one for text, not both**), reverse, reset and set to default.
@@ -80,3 +80,60 @@
   - underline - underlines a text
   - reverse - swaping text color and background color
   - default - default color that you choose
+  
+### clear()
+
+  #### Description
+
+  Clears the terminal, that's all.
+
+  #### Usage
+
+  ```python
+  import ttut
+  ttut.clear()
+  ```
+
+  or
+
+  ```python
+  from ttut import *
+  clear()
+  ```
+  or
+
+  ```python
+  from ttut import clear()
+  clear()
+  ```
+
+### log(text, log_type)
+
+  #### Description
+
+  The text attribute must be a string or int/float (but why ?).
+
+  Default value of attribute is *INFO*. You can also use *WARN* for warnings and *ERROR* for you know what.
+
+  Prints out in terminal the text with type of it and also writes it in the file *log.log*.
+
+  #### Usage
+
+  ```python
+  import ttut
+  ttut.log("File loaded succesfly")
+  ```
+
+  or 
+
+  ```python
+  from ttut import *
+  log("I'm a warning", "WARN")
+  ```
+
+  or
+
+  ```python
+  from ttut import log
+  log("I'm scarry error", "ERROR")
+  ```
