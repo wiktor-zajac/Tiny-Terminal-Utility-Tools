@@ -17,6 +17,8 @@
   
   Note that you can use bright colors for background, for example: ```[bg_b_blue]Hello [bg_b_red]world```.
 
+  There is also option to bold, underline (**you can choose only one for text, not both**), reset and set to default more in [functionalones]
+
   **There is list of all avabile colors**
   - black - black color
   - red - red color
