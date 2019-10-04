@@ -51,6 +51,9 @@ colors = {
 }
 
 allowed_list = (str, int, float)
+ERROR = "ERROR"
+WARN = "WARN"
+INFO = "INFO"
 
 def log(text, log_type="INFO"):
     try:
