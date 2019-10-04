@@ -50,7 +50,7 @@ colors = {
     "default": "\u001b[0m"
 }
 
-allowed_list = (str, int)
+allowed_list = (str, int, float)
 
 def log(text, log_type="INFO"):
     try:
