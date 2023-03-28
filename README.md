@@ -1,3 +1,10 @@
+# Read first!  
+this project isn't really usefull or written properly. I created it out of pure boredom.  
+
+If you want to use logging you should check `logging` package in Python's standard library [docs](https://docs.python.org/3/library/logging.html).  
+For console colors you can checkout [colorama](https://github.com/tartley/colorama), [termcolor](https://github.com/termcolor/termcolor) or [colored](https://gitlab.com/dslackw/colored).  
+If you are looking here there is a chance you want to make TUI interface, if that's true you should checkout `curses` library [docs](https://docs.python.org/3/library/curses.html).  
+
 # Tiny-Terminal-Utility-Tools
 **"Tiny Terminal Utility Tools"** in short ***ttut*** was created to improve using **terminal** with **python**
 ## Functions:
